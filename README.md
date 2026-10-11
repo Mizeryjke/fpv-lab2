@@ -8,3 +8,17 @@ Flight to target (x0 - 4.0, y0 - 1.1) and automatic landing.
 - `logs/` - flight logs
 
 Run: `source scripts/ardu_env.sh && source install/setup.bash && ros2 run fpv_lab2 flight_test`
+
+## Quick start (scripts)
+
+scripts/start_sim.sh # Gazebo + ArduPilot SITL + ROS 2 (waits until ready)
+scripts/run_flight.sh # takeoff, hover, flight to target, landing; log in logs/
+scripts/stop_sim.sh # stop all simulation processes
+
+
+## Quick start (scripts)
+
+scripts/start_sim.sh # Gazebo + ArduPilot SITL + ROS 2 (waits until ready)
+scripts/run_flight.sh # takeoff, hover, flight to target, landing; log in logs/
+scripts/stop_sim.sh # stop all simulation processes
+
