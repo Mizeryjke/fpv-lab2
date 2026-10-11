@@ -1,0 +1,28 @@
+[INFO] [1791733676.574810139] [flight_test]: Flight test node started
+[INFO] [1791733676.575452772] [flight_test]: Waiting for ArduPilot and ROS services...
+[INFO] [1791733676.576984324] [flight_test]: Start: (0.00, 0.00); target: (-4.00, -1.10)
+[INFO] [1791733676.957855687] [flight_test]: ArduPilot and all services are available
+[INFO] [1791733677.160237901] [flight_test]: Running pre-arm check
+[INFO] [1791733677.163677823] [flight_test]: Pre-arm check passed: Vehicle is Armable
+[INFO] [1791733677.357474859] [flight_test]: Requesting flight mode 4
+[INFO] [1791733677.362107461] [flight_test]: GUIDED mode enabled
+[INFO] [1791733677.557677384] [flight_test]: Requesting motor arming
+[INFO] [1791733677.565996881] [flight_test]: Motors armed
+[INFO] [1791733677.757962166] [flight_test]: Requesting takeoff to 5.0 m
+[INFO] [1791733677.763834080] [flight_test]: Takeoff command accepted
+[INFO] [1791733677.764215245] [flight_test]: Hovering for 8.0 seconds
+[INFO] [1791733685.957565099] [flight_test]: Hover completed, flying to target
+[INFO] [1791733686.157645546] [flight_test]: Navigating to target point
+[INFO] [1791733686.158317915] [flight_test]: Position (0.00, 0.00), distance 4.15 m
+[INFO] [1791733687.358666987] [flight_test]: Position (-0.32, -0.09), distance 3.81 m
+[INFO] [1791733688.557694823] [flight_test]: Position (-1.35, -0.38), distance 2.74 m
+[INFO] [1791733689.558175771] [flight_test]: Position (-2.14, -0.60), distance 1.93 m
+[INFO] [1791733690.758447865] [flight_test]: Position (-3.02, -0.83), distance 1.02 m
+[INFO] [1791733691.957465515] [flight_test]: Position (-3.64, -1.00), distance 0.37 m
+[INFO] [1791733692.557615174] [flight_test]: Target reached. Actual: (-3.79, -1.04), target: (-4.00, -1.10), error: 0.222 m. Holding 10 s
+[INFO] [1791733702.158440509] [flight_test]: Before landing: actual (-3.93, -1.07), error 0.077 m. Starting landing
+[INFO] [1791733702.357701655] [flight_test]: Requesting flight mode 9
+[INFO] [1791733702.363516097] [flight_test]: LAND mode enabled
+[INFO] [1791733724.158106890] [flight_test]: Landing completed
+[INFO] [1791733724.158441090] [flight_test]: Final Gazebo altitude: 0.21 m
+[INFO] [1791733724.158776251] [flight_test]: Flight test completed successfully

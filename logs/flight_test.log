@@ -1,0 +1,27 @@
+[INFO] [1791733507.676101992] [flight_test]: Flight test node started
+[INFO] [1791733507.676659183] [flight_test]: Waiting for ArduPilot and ROS services...
+[INFO] [1791733507.677993888] [flight_test]: Start: (0.00, 0.00); target: (-4.00, -1.10)
+[INFO] [1791733508.261243075] [flight_test]: ArduPilot and all services are available
+[INFO] [1791733508.461677244] [flight_test]: Running pre-arm check
+[INFO] [1791733508.465768095] [flight_test]: Pre-arm check passed: Vehicle is Armable
+[INFO] [1791733508.660818534] [flight_test]: Requesting flight mode 4
+[INFO] [1791733508.667697277] [flight_test]: GUIDED mode enabled
+[INFO] [1791733508.861855493] [flight_test]: Requesting motor arming
+[INFO] [1791733508.877624009] [flight_test]: Motors armed
+[INFO] [1791733509.061717602] [flight_test]: Requesting takeoff to 5.0 m
+[INFO] [1791733509.067129675] [flight_test]: Takeoff command accepted
+[INFO] [1791733509.067724427] [flight_test]: Hovering for 8.0 seconds
+[INFO] [1791733517.262318273] [flight_test]: Hover completed, flying to target
+[INFO] [1791733517.460996433] [flight_test]: Navigating to target point
+[INFO] [1791733517.461601362] [flight_test]: Position (0.00, 0.00), distance 4.15 m
+[INFO] [1791733518.661608638] [flight_test]: Position (-0.37, -0.10), distance 3.77 m
+[INFO] [1791733519.861652385] [flight_test]: Position (-1.40, -0.40), distance 2.69 m
+[INFO] [1791733520.862030279] [flight_test]: Position (-2.17, -0.60), distance 1.89 m
+[INFO] [1791733522.060783787] [flight_test]: Position (-3.10, -0.85), distance 0.93 m
+[INFO] [1791733523.260656529] [flight_test]: Position (-3.70, -1.02), distance 0.31 m
+[INFO] [1791733523.660686382] [flight_test]: Target reached. Actual: (-3.80, -1.05), target: (-4.00, -1.10), error: 0.205 m
+[INFO] [1791733523.860637742] [flight_test]: Requesting flight mode 9
+[INFO] [1791733523.865673162] [flight_test]: LAND mode enabled
+[INFO] [1791733557.061059700] [flight_test]: Landing completed
+[INFO] [1791733557.061527470] [flight_test]: Final Gazebo altitude: 0.10 m
+[INFO] [1791733557.061836711] [flight_test]: Flight test completed successfully
