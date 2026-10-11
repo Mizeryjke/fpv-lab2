@@ -15,17 +15,16 @@ class FlightTestNode(Node):
     TAKEOFF_ALTITUDE = 5.0
     HOVER_DURATION = 8.0
 
-    # --- Варіант 34: dx = 4.0, dy = 1.1 ---
-    # x_target = x0 - dx, y_target = y0 - dy
-    TARGET_SIGN = -1.0        # -1 за формулою лаби; +1 лише для тесту
+
+    TARGET_SIGN = -1.0  
     TARGET_DX = 4.0
     TARGET_DY = 1.1
-    TARGET_TOLERANCE = 0.25   # м
-    MAX_SPEED = 1.0           # м/с
-    MIN_SPEED = 0.15          # м/с
-    SPEED_GAIN = 0.6          # v = SPEED_GAIN * відстань
-    NAV_TIMEOUT = 60.0        # с
-    CMD_FRAME_ID = "map"     # див. примітку в інструкції
+    TARGET_TOLERANCE = 0.25  
+    MAX_SPEED = 1.0 
+    MIN_SPEED = 0.15 
+    SPEED_GAIN = 0.6 
+    NAV_TIMEOUT = 60.0 
+    CMD_FRAME_ID = "map"  
 
     def __init__(self):
         super().__init__("flight_test")
